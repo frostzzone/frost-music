@@ -16,7 +16,7 @@
 		"type": "github",
 		"url": "https://github.com/frostzzone/frost-music"
 	},
-	"homepage": "https://github.com/frostzzone/frost-music#readme"
+	"homepage": "https://github.com/frostzzone/frost-music#readme",
 	"dependencies": {
 		"@discordjs/opus": "^0.9.0",
 		"@discordjs/voice": "^0.16.1",
