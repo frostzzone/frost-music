@@ -3,6 +3,8 @@ Just another music package
 
 Uses youtube to get audio
 
+(*Real docs soon*)
+
 ### Installing package
 
 ```bash
@@ -204,12 +206,12 @@ Music.on(Music.Events.searchResult, (results, msg, player) => {
 *This is optional*
 ```js
 // When user leaves voice
-client.on(Discord.Events.VoiceStateUpdate, (oldState, newState) => {
+client.on(Events.VoiceStateUpdate, (oldState, newState) => {
 	if (!oldState.channel && newState.channel) return;
-	if (!musicClient.has(oldState.guild.id)) return;
+	if (!Music.has(oldState.guild.id)) return;
 
-	if (musicClient.membercount(oldState.guild.id) < 1) {
-		musicClient.leave(oldState.guild.id);
+	if (Music.membercount(oldState.guild.id) < 1) {
+		Music.leave(oldState.guild.id);
 	}
 });
 ```
