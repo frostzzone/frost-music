@@ -1,6 +1,6 @@
 ---
 name: Bug report
-about: Create a report to help us improve
+about: Create a report to help improve the package
 title: "[BUG] "
 labels: bug
 assignees: ''
@@ -24,3 +24,8 @@ If applicable, add screenshots to help explain your problem.
 
 **Additional context**
 Add any other context about the problem here.
+
+**Report Agreement**
+
+- [ ] I made sure this hasnt been fixed
+- [ ] I made sure this hasnt already been reported
